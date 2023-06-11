@@ -8,6 +8,8 @@ const axiosOptions = {
     headers: getContentType()
 }
 
+axios.get(`http://45.147.178.235:4200/api`)
+
 export const axiosClassic = axios.create(axiosOptions)
 
 export const instance = axios.create(axiosOptions)
