@@ -14,7 +14,7 @@ import ProductRating from "./ProductRating";
 
 const ProductItem: FC<{product: IProduct}> = ({product}) => {
     return (
-    <div className="animate-scaleIn p-5 rounded-2xl hover:text-secondary hover:transition-colors hover:shadow-2xl">
+    <div className="animate-scaleIn p-5 rounded-2xl  hover:text-secondary hover:transition-colors hover:shadow-2xl hover:-translate-y-1">
         <div className="bg-white rounded-xl relative overflow-hidden">
             <div className="absolute top-2 right-3 z-10">
                 <FavoriteButton productId={product.id}/>

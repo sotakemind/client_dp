@@ -22,6 +22,7 @@ const SearchPage: NextPage = () => {
                 <Catalog products={data?.products || []}
                 title={`Поиск по запросу "${query.term || ''}"`}/>
                 <div className="h-80"></div>
+                <div className="h-80"></div>
             </Layout>
         </Meta>
     )

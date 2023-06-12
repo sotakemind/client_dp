@@ -15,6 +15,9 @@ const CategoryPage: NextPage<{
         <Meta title={category.name}>
             <Layout>
                 <Catalog products={products || []} title={category.name}/>
+                <div className="mb-80"></div>
+                <div className="mb-80"></div>
+                <div className="mb-80"></div>
             </Layout>
         </Meta>
     )
